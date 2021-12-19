@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(102, 179, 149);
+    color: white;
+    font-size: 16px;
+}
+header{
+     background-color: rgb(76, 11, 78);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 20px;
+     padding: 12px;
+}
+
+#ulprin {  
+     display: flex; 
+     list-style: none;
+     
+}
+#ulprin li {
+  padding: 0px 24px 0px 24px;
+}
+#item {
+    
+     text-decoration: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     transition: color 0.2s;
+}
+#item:hover{
+    color: lime;
+    border-radius: 3px;
+}
+#item:active {
+    color: lime;
+}
+
+h1{
+    background-color: rgb(76, 11, 78);
+    font-size: 25px;
+    padding: 22px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0px 7px 0px 7px;  
+    box-shadow: 4px 3px 5px rgb(0, 0, 0);  
+    width: 70%;
+    margin: auto;
+}
+div{
+    background-color: rgba(11, 97, 97, 0.87);
+    width: 420px;
+    height: 395px;
+    margin: 20px auto 5px auto;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.822);
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.76);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    box-shadow: 4px 3px 7px black;
+    border-radius: 0px 7px 0px 7px;
+}
+header img{
+   width:180px;
+   margin-top: 5px;
+ 
+}
